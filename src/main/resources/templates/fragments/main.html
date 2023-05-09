@@ -1,0 +1,62 @@
+<main th:fragment="main" class="w-full">
+  <section class="w-full min-h-52 h-fit bg-[#F7F8F8] flex-col items-center pb-7">
+    <div class="w-full flex justify-center items-center">
+      <h1 class="font-tangerine text-[3rem] md:text-[5rem] py-12">Faith</h1>
+    </div>
+
+    <div class="w-full flex justify-center pb-14">
+      <p class="font-joseph text-1xl md:text-2xl text-center font-thin px-5 md:max-w-5xl">
+        "In the world you will have tribulation. But take heart; I have overcome the world." "So do not fear, for I am
+        with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my
+        righteous right hand."
+      </p>
+    </div>
+  </section>
+
+  <section id="community" class="beliefs bg-gradient-to-b from-[#0358C0bb] to-[#0358C0]" role="beliefs">
+    <div class="w-full flex flex-row justify-center md:pt-10">
+      <h1 class="font-tangerine text-[3rem] md:text-[5rem] text-white text-center">Community</h1>
+    </div>
+    <div class="community-images w-full flex justify-center md:pb-24 md:pt-12">
+      <div class="flex flex-col md:flex-row md:items-center">
+        <div class="w-full md:w-56 shadow-inner">
+          <img th:src="@{/imgs/assets/church/dean_and_aunts.jpg}" alt="church-and-community" />
+        </div>
+        <div class="w-full md:w-[30rem] hidden md:flex shadow-inner">
+          <img th:src="@{/imgs/assets/church/church-building.png}" alt="church" />
+        </div>
+        <div class="w-full md:w-56 hidden md:flex shadow-inner">
+          <img th:src="@{/imgs/assets/church/dean_and_folks.jpg}" alt="church-and-community" />
+        </div>
+      </div>
+    </div>
+    <div class="w-full flex flex-row justify-center py-12">
+      <p class="text-center font-joseph text-1xl md:text-2xl font-thin px-5 md:max-w-5xl text-white">
+        Corner Gate Christian Church has been up and running for 11 years and has played an integral role in the
+        community. Faith and togetherness is the backbone of a strong cummunity and Corner Gate Church aims to exemplify
+        that maxim through actions and open gates.
+      </p>
+    </div>
+  </section>
+
+  <section id="trust" class="join-us" role="join-us">
+    <div class="w-full flex flex-row justify-center items-center md:pt-10">
+      <h1 class="font-tangerine text-[3rem] md:text-[5rem]">Trust</h1>
+    </div>
+    <div class="w-full flex flex-row justify-center">
+      <img th:src="@{/imgs/assets/trust.jpg}" alt="" />
+    </div>
+    <div class="w-full flex flex-row justify-center py-12">
+      <p class="text-center font-joseph text-1xl md:text-2xl font-thin px-5 md:max-w-5xl">
+        Corner Gate Christian Church deeply values the trust that their community has placed in their church. They
+        understand that trust is something that is earned, and they work tirelessly to build and maintain it. From their
+        welcoming atmosphere to their commitment to serving the needs of the community, Corner Gate Christian Church is
+        dedicated to fostering a strong and positive relationship with those they serve. They believe that the trust of
+        their community is a precious gift that they must cherish, and they strive to live up to the expectations of
+        their congregants each and every day. Through their actions, they hope to continue to earn the trust and respect
+        of those they serve, and to make a positive impact on the lives of those in their community.
+      </p>
+    </div>
+  </section>
+  <section id="contact-me" class="contact-me" role="contact-me"></section>
+</main>

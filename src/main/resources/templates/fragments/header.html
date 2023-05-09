@@ -1,0 +1,41 @@
+<header th:fragment="header" class="bg-white flex-col">
+  <section id="titleSection" class="titleSection" role="titleSection">
+    <div class="w-full flex justify-center pt-3">
+      <img class="w-20" th:src="@{/imgs/assets/cor.jpg}" alt="" />
+    </div>
+    <div class="w-full items-center flex justify-center text-center">
+      <div class="flex-col py-2">
+        <h1 class="font-playfair text-3xl font-bold">CORNER GATE</h1>
+        <h2 class="font-playfair text-md max-w-xs">CHRISTIAN CHURCH</h2>
+        <h3 class="font-playfair text-sm max-w-xs">OF SAN ANTONIO TEXAS</h3>
+      </div>
+    </div>
+    <!-- <div class="block bg-gradient-to-b from-transparent to-slate-300 h-1 w-full"></div> -->
+  </section>
+  <nav class="max-w-full h-14 flex pl-5 pr-20 py-5 items-center shadow-inner shadow-slate-600/10">
+    <div class="flex">
+      <div class="relative">
+        <h1 class="text-christblue-950 font-joseph flex pr-5 md:text">
+          <span class="font-bold">Join</span>
+          <span class="font-thin text-white z-10">Our</span>
+          Community
+        </h1>
+        <div class="block h-8 w-8 rounded-full bg-christblue-950 opacity-30 absolute left-6 -top-1"></div>
+      </div>
+      <ul class="flex gap-3 text-[0.54rem] md:text-[0.8rem] items-center font-joseph w-max">
+        <li class="hover:underline decoration-christblue-950 decoration-2 underline-offset-2">
+          <a href="/#trust">BELIEFS</a>
+        </li>
+        <li class="hover:underline decoration-christblue-950 decoration-2 underline-offset-2">
+          <a href="/#community">COMMUNITY</a>
+        </li>
+        <li class="hover:underline decoration-christblue-950 decoration-2 underline-offset-2">
+          <a href="/contact">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section id="banner" class="banner min-w-screen overflow-hidden md:h-[35rem] shadow-inner" role="banner">
+    <img class="w-full" th:src="@{/imgs/assets/gates.jpg}" alt="" />
+  </section>
+</header>
